@@ -1,0 +1,19 @@
+Package: montyhall
+Title: Helps in Running Simulations to Evaluate Game Strategies.
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Zeina",
+           family = "Zeineddine",
+           role = c("aut", "cre"),
+           email = "zeina.zeineddine@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package is designed to better simulate the Monty Hall Problem over a given number of iterations, with a given number of doors.Noting that the number of doors in the montyhall game are by default three but can be increased and the iterations refer to the number of games within each scenario.
+Depends:
+    dplyr
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+
+
